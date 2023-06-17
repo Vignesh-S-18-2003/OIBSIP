@@ -1,0 +1,178 @@
+.header{
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    height:800px ;
+    width:100%;
+    background-repeat: no-repeat;
+    
+}
+.list-1 li{
+    list-style-type: none;
+}
+.list-1 li a:hover{
+    text-decoration: none ;
+        padding: 10px;
+        background-color: aliceblue;
+        color:black;
+        border-radius:15px ;
+}
+.header1{
+        display:flex ;
+        justify-content: space-between;
+    }
+   nav {
+        padding: 20px;
+        padding-right: 50px;
+    }
+    .list-1 li a{
+        text-decoration: none ;
+        padding: 10px;
+        color:white;
+    }
+    .header h1{
+        color:white;
+        padding: 20px;
+        margin-left: 4%;
+    }
+    .header2{
+        width:400px;
+        margin-top: 5%;
+        text-align: center;
+        color:white;
+        padding:50px 80px;
+        border-radius: 3px;
+        position:relative;
+        left:32%;
+    }
+    .header2 h3,h2,a{
+        font-size: 30px;
+        font-style: initial;
+    }
+    .header2 h3{
+        text-decoration:wavy;
+        text-decoration-color: black; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 3px 3px 0 black;
+    }
+    .header2 h2{
+        text-shadow: 3px 3px 0 black;
+    }
+    .header2 a{
+        line-height: 70px;
+        text-shadow: 2px 2px 0 black;
+        border:1px double white;
+        font-weight: 200;
+        padding:15px;
+        padding-right:40px;
+        padding-left:40px;
+        text-decoration: none;
+        color:white;
+    }
+    .header2 a:hover{
+        border:1px solid white;
+        background-color:white ;
+        padding:15px;
+        text-shadow: 0 0 0 black;
+        padding-right:40px;
+        padding-left:40px;
+        text-decoration: none;
+        color:black;
+    }
+    .section2{
+        text-align: center;
+        display: flex;
+        padding-left: 15%;
+    }
+    .section1{
+        text-align: center;
+        height: 90vh;
+    }
+    .section2 img{
+        width: 450px;
+        height:300px;
+        cursor: pointer;
+        transition: 0.5s;
+        margin: 25px;
+    }
+    .section2 img:hover{
+        box-shadow: 0 0 20px 0 black;
+    }
+    .section2 p a{
+        font-size: 25px;
+        text-decoration: none;
+        color:blue;
+        border: 1px solid blue;
+        padding: 10px;
+    }
+    .section2 p a:hover{
+        background-color: blue;
+        color: white;
+    }
+    .page3{
+        width:100%;
+        height: 600px;
+        background-color: aqua;
+        background-image: url(pic4.jpg);
+        background-size:100% ;
+        background-repeat: no-repeat;
+    }
+    .page3 div{
+        width:600px;
+        margin-left: 50%;
+        padding-top: 25px;
+    }
+    .page3 div a{
+        font-size: 25px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    .page3 div a:hover{
+        border: 1px solid black;
+        background-color: black;
+        color:white;
+    }
+    .About-us{
+        display: flex;
+    }
+    .About-us div{
+        padding: 50px;
+        width:550px;
+    }
+    .About-us div a{
+        font-size: 25px;
+        text-decoration: none;
+        color:blue;
+        border: 1px solid blue;
+        padding: 10px;
+        border-radius: 10px;   
+        line-height: 50px;  
+    }
+    .About-us div a:hover{
+        background-color: blue;
+        color: white;
+    }
+    .image img{
+        width:250px;
+        height:150px;
+        margin-right: 10px;
+        cursor:pointer;
+    }
+    .image img:hover{
+        box-shadow: 0 0 10px 0 black;
+    }
+    .image div{
+        padding:5px;
+    }
+    footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+margin: 0;
+}
